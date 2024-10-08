@@ -114,8 +114,6 @@ const Board: React.FC = () => {
       ...prevBoards,
       [selectedSize]: boardWithNumbers,
     }));
-
-    setCollectedCounts({ SSS: 0, SS: 0, S: 0, A: 0, B: 0, C: 0 });
   };
 
   const getCellColor = (size: number) => {

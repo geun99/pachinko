@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Header = () => {
-  return <HeaderStyle>파칭코 시뮬레이션</HeaderStyle>;
+  return <HeaderStyle>파칭코 시뮬레이터</HeaderStyle>;
 };
 
 const HeaderStyle = styled.header`

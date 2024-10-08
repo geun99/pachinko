@@ -24,6 +24,7 @@ const RemainingCounts: React.FC<RemainingCountsProps> = ({
 
 const CountsContainer = styled.div`
   margin-left: 100px;
+  margin-right: 30px;
   font-size: 30px;
   li {
     list-style: none;
